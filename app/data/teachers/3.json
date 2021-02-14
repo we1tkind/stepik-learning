@@ -1,0 +1,84 @@
+{
+    "about": "I have a wide range of interests, believe me, you will never be bored during our lesson. I worked with lawyers, doctors, biologists and many others to help them improve their English in their respective fields. Since I spent my whole life satisfying my curiosity, I acquired a huge vocabulary that I can pass on to you.",
+    "free": {
+        "fri": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "mon": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "sat": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "sun": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "thu": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "tue": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "wed": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        }
+    },
+    "goals": [
+        "travel",
+        "study"
+    ],
+    "id": 3,
+    "name": "Milan S",
+    "picture": "https://i.pravatar.cc/300?img=28",
+    "price": 1300,
+    "rating": 4.9
+}

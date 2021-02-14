@@ -1,0 +1,83 @@
+{
+    "about": "Hello and welcome to my profile learners of the wonderful world of the English language! I am a certified native English teacher with an A in TEFL. Learning something new should be fun and exciting and not something you’re dragging your feet into doing which is why I believe a little fun and humour plays a huge part in the learning process and also the development of a healthy and enjoyable relationship between us.I am also currently trying to learn a new language and so I know from my own experience how daunting or sometimes challenging it can be but please remember I’m here to work with you and not against you. We can work together on pronunciation, reading, conversational English, homework you may have from school or college, slang, in fact on any subject area you enjoy or want to develop as when you’re enjoying the learning process you’re learning without even realising.",
+    "free": {
+        "fri": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "mon": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "sat": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "sun": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "thu": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "tue": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "wed": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        }
+    },
+    "goals": [
+        "work"
+    ],
+    "id": 9,
+    "name": "Seeta Y.",
+    "picture": "https://i.pravatar.cc/300?img=36",
+    "price": 1200,
+    "rating": 4.1
+}

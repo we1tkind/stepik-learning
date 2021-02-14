@@ -1,0 +1,85 @@
+{
+    "about": "I motivate and guide students to achieve their goals. It depends on what is the problem they are facing. Sometimes they just want to practice speaking to improve their fluency. Sometimes it's more complicated which is a language barrier and I need to boost their confidence. Some are coming with a specific task to pass an exam like IELTS and TOEFL. Moreover some are seeking to improve their business skills and business conversation. Sometimes they need to pass the interview in English. According to their requirements I have materials and programs to help them to achieve their desired goals. My vast experience of teaching plays a vital role as well.",
+    "free": {
+        "fri": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "mon": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "sat": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "sun": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "thu": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "tue": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "wed": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        }
+    },
+    "goals": [
+        "travel",
+        "study",
+        "work"
+    ],
+    "id": 10,
+    "name": "Salman S",
+    "picture": "https://i.pravatar.cc/300?img=37",
+    "price": 1100,
+    "rating": 4.7
+}

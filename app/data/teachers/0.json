@@ -1,0 +1,85 @@
+{
+    "about": "Репетитор американского английского языка. Структурированная система обучения. Всем привет! Я предпочитаю называть себя «тренером» английского языка. Мои занятия похожи на тренировки",
+    "free": {
+        "fri": {
+            "10:00": true,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": true
+        },
+        "mon": {
+            "10:00": true,
+            "12:00": true,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "sat": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": false,
+            "8:00": false
+        },
+        "sun": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": false,
+            "8:00": false
+        },
+        "thu": {
+            "10:00": true,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": true
+        },
+        "tue": {
+            "10:00": true,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": true
+        },
+        "wed": {
+            "10:00": true,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": true
+        }
+    },
+    "goals": [
+        "travel",
+        "relocate",
+        "study"
+    ],
+    "id": 0,
+    "name": "Morris Simmmons",
+    "picture": "https://i.pravatar.cc/300?img=20",
+    "price": 900,
+    "rating": 4.2
+}

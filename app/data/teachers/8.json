@@ -1,0 +1,84 @@
+{
+    "about": "Hello, My name is Skye. I’m from London in the United Kingdom but I am currently living in Japan. I have a TEFL certificate which I acquired last year. Since moving to Japan I have been teaching some of my Japanese friends English. I think learning should be fun and engaging and even though English can be difficult to learn I aim to make it enjoyable.I enjoy watching football and travelling. I do a lot of Yoga in my spare time and I can't wait to meet you!",
+    "free": {
+        "fri": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "mon": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "sat": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "sun": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "thu": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "tue": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "wed": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        }
+    },
+    "goals": [
+        "relocate",
+        "work"
+    ],
+    "id": 8,
+    "name": "Skye L.",
+    "picture": "https://i.pravatar.cc/300?img=35",
+    "price": 1700,
+    "rating": 5
+}

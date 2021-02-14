@@ -1,0 +1,83 @@
+{
+    "about": "Hello! My name is Gulya :) I am a native speaker of the Russian language and I am fluent in English. I have been teaching online for 3 years now. I have an individual program, having studied your requirements, I am preparing a special program. plan, and therefore deal) Books Cambridge, Oxford, etc. I train and develop colloquial speech. We study words, stable combinations and put them into practice. We speak and try to speak :) on different topics. We listen to audio lessons, watch films with subtitles. We analyze everything on the shelves :) In parallel, of course, we study the basics of grammar and the correct delivery of sentences :) All the materials are provided by me. I promise you that you will talk from the first first lesson :)",
+    "free": {
+        "fri": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "mon": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "sat": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "sun": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "thu": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "tue": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "wed": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        }
+    },
+    "goals": [
+        "travel"
+    ],
+    "id": 4,
+    "name": "Gulya S",
+    "picture": "https://i.pravatar.cc/300?img=29",
+    "price": 900,
+    "rating": 4.3
+}

@@ -1,0 +1,83 @@
+{
+    "about": "My lessons are fun and practical, but most importantly, we are going to be extremely productive. I believe that the best way to master English is through EXECUTION. Less theory, more practice. Lots of practice. Our goal is to achieve maximum involvement and focus on the subject. Schools trained us to be very passive. Sit quietly by yourself, be lectured to, just consume information. THAT is not how we are going to learn English.",
+    "free": {
+        "fri": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "mon": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "sat": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "sun": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false,
+            "8:00": false
+        },
+        "thu": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "tue": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        },
+        "wed": {
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true,
+            "8:00": false
+        }
+    },
+    "goals": [
+        "study"
+    ],
+    "id": 7,
+    "name": "Mr. Mark",
+    "picture": "https://i.pravatar.cc/300?img=33",
+    "price": 1100,
+    "rating": 4.5
+}
