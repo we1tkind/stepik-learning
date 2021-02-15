@@ -43,7 +43,7 @@ def goals(goal_id):
     goal = next(
         iter([goal for goal in learning_goals if goal['id'] == goal_id]), None
     )
-    teachers = db.all('teachers', filters={'goals': goal['id']})
+    teachers = db.all('teachers', filters={'goals': goal['id']}, sort='-rating')
     return render_template('goal.html', goal=goal, teachers=teachers)
 
 
