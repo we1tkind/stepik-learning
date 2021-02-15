@@ -1,84 +1,84 @@
 {
+    "id": 1,
+    "name": "Lee P",
     "about": "I am a native speaker and conversation tutor, providing private English conversation lessons using something called Life Learning.This method allows students to take complete control of how and what they learn. It is student-led learning focusing on interests, life goals, enjoyment and effective learning for you, as an individual.Stop wasting time with textbooks, tests and unneccesary pressure. Find a love for learning and speaking English with creativity and freedom. The lessons are completely chosen by you to keep you motivated and driven to achieve your goals.",
-    "free": {
-        "fri": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "mon": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "sat": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "sun": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "thu": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "tue": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "wed": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        }
-    },
+    "rating": 4.8,
+    "picture": "https://i.pravatar.cc/300?img=19",
+    "price": 1200,
     "goals": [
         "relocate",
         "study"
     ],
-    "id": 1,
-    "name": "Lee P",
-    "picture": "https://i.pravatar.cc/300?img=19",
-    "price": 1200,
-    "rating": 4.8
+    "free": {
+        "mon": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "tue": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "wed": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "thu": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "fri": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        },
+        "sat": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        },
+        "sun": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        }
+    }
 }

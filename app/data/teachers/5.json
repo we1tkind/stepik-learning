@@ -1,84 +1,84 @@
 {
+    "id": 5,
+    "name": "Yan M",
     "about": "Hello! My name is Yang and for more than five years I have been teaching English. I spent part of this time in China, where I worked with students from 3 to 40 years old. I deal with both adults and children. But for all ages, I try to make my classes fun and interactive. Teaching English to me is not just a language lesson. I always try to attract a wider cultural and historical context that helps my students understand more about the language and its features. A degree in history helps me a lot to create such an intellectual environment in the classroom.For each student, I develop an individual curriculum that depends on its goals and needs.",
-    "free": {
-        "fri": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "mon": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "sat": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "sun": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "thu": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "tue": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "wed": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        }
-    },
+    "picture": "https://i.pravatar.cc/300?img=30",
+    "rating": 3.9,
+    "price": 800,
     "goals": [
         "travel",
         "study"
     ],
-    "id": 5,
-    "name": "Yan M",
-    "picture": "https://i.pravatar.cc/300?img=30",
-    "price": 800,
-    "rating": 3.9
+    "free": {
+        "mon": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "tue": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "wed": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "thu": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "fri": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        },
+        "sat": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        },
+        "sun": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        }
+    }
 }

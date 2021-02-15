@@ -1,85 +1,85 @@
 {
+    "id": 6,
+    "name": "Eran E",
     "about": "Hello, my name is Eran & I am a friendly native English speaker. I am an experienced English teacher with a neutral accent that is easily understood. This is because I have grown up living in 13 countries across 4 continents. They include England, America, Australia & Japan. Presently, I live in Lisbon, Portugal. While I am primarily focused on 1 to 1 tuition, I’ve previously taught classes with as many as 50 students at a time. My students have ranged from 12 to 70 years old. From Israeli middle schoolers all the way through to Thai Government officials. As a result, I’ve learned a wide variety of teaching methods. Currently, I'm taking students with English level: B2 onwards, as well as those who are interested in long-term growth and multiple lessons.I understand how hard it can be to learn another language. That's why my teaching style is fun, constructive & easy-going. Lessons will be tailored to meet your needs & goals. Through my lessons, you will gain the confidence to speak English in your daily life.",
-    "free": {
-        "fri": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "mon": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "sat": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "sun": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "thu": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "tue": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        },
-        "wed": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": false
-        }
-    },
+    "picture": "https://i.pravatar.cc/300?img=32",
+    "rating": 4.5,
+    "price": 1200,
     "goals": [
         "travel",
         "relocate",
         "study"
     ],
-    "id": 6,
-    "name": "Eran E",
-    "picture": "https://i.pravatar.cc/300?img=32",
-    "price": 1200,
-    "rating": 4.5
+    "free": {
+        "mon": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "tue": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "wed": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "thu": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "fri": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        },
+        "sat": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        },
+        "sun": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        }
+    }
 }

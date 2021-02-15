@@ -1,83 +1,83 @@
 {
+    "id": 2,
+    "name": "Felix A",
     "about": "The English language has become the language of the world, thus, it is considered a world language. Today English seems to evolve to a future global tongue, as its spreading on the Internet in recent years shows (almost 80% of the worldwide web's pages are now written in English). scientific researchers have found out that in fact many small languages have already vanished.But to teach it in a satisfactory manner a good teacher of English is required.xA good teacher of English must possess some qualities.Business, General and conversational English",
-    "free": {
-        "fri": {
-            "10:00": true,
-            "12:00": true,
-            "14:00": true,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": true
-        },
-        "mon": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "sat": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "sun": {
-            "10:00": false,
-            "12:00": false,
-            "14:00": false,
-            "16:00": false,
-            "18:00": false,
-            "20:00": false,
-            "22:00": false,
-            "8:00": false
-        },
-        "thu": {
-            "10:00": true,
-            "12:00": true,
-            "14:00": true,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": true
-        },
-        "tue": {
-            "10:00": true,
-            "12:00": true,
-            "14:00": true,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": true
-        },
-        "wed": {
-            "10:00": true,
-            "12:00": true,
-            "14:00": true,
-            "16:00": true,
-            "18:00": true,
-            "20:00": true,
-            "22:00": true,
-            "8:00": true
-        }
-    },
+    "picture": "https://i.pravatar.cc/300?img=27",
+    "rating": 4.7,
+    "price": 1300,
     "goals": [
         "work"
     ],
-    "id": 2,
-    "name": "Felix A",
-    "picture": "https://i.pravatar.cc/300?img=27",
-    "price": 1300,
-    "rating": 4.7
+    "free": {
+        "mon": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        },
+        "tue": {
+            "8:00": true,
+            "10:00": true,
+            "12:00": true,
+            "14:00": true,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "wed": {
+            "8:00": true,
+            "10:00": true,
+            "12:00": true,
+            "14:00": true,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "thu": {
+            "8:00": true,
+            "10:00": true,
+            "12:00": true,
+            "14:00": true,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "fri": {
+            "8:00": true,
+            "10:00": true,
+            "12:00": true,
+            "14:00": true,
+            "16:00": true,
+            "18:00": true,
+            "20:00": true,
+            "22:00": true
+        },
+        "sat": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        },
+        "sun": {
+            "8:00": false,
+            "10:00": false,
+            "12:00": false,
+            "14:00": false,
+            "16:00": false,
+            "18:00": false,
+            "20:00": false,
+            "22:00": false
+        }
+    }
 }
