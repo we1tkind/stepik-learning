@@ -4,11 +4,12 @@ from flask import Flask, render_template, request
 
 from db import JsonDB
 from forms import SortTeachersForm
-from filters import word_agree_with_number
+from filters import word_agree_with_number, translate_weekday
 
 app = Flask(__name__)
 app.secret_key = os.getenv('FLASK_SECRET_KEY', 'secret')
 app.jinja_env.filters['word_agree_with_number'] = word_agree_with_number
+app.jinja_env.filters['translate_weekday'] = translate_weekday
 
 db = JsonDB('data/')
 learning_goals = db.all('goals')
