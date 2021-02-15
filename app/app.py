@@ -1,12 +1,15 @@
 from flask import Flask, render_template
+from db import JsonDB
 
 
 app = Flask(__name__)
+db = JsonDB('data/')
 
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    teachers = db.all('teachers', limit=6)
+    return render_template('index.html', teachers=teachers)
 
 
 @app.route('/all/')
