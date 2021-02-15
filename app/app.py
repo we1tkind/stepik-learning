@@ -1,8 +1,15 @@
-from flask import Flask, render_template
-from db import JsonDB
+import os
 
+from flask import Flask, render_template, request
+
+from db import JsonDB
+from forms import SortTeachersForm
+from filters import word_agree_with_number
 
 app = Flask(__name__)
+app.secret_key = os.getenv('FLASK_SECRET_KEY', 'secret')
+app.jinja_env.filters['word_agree_with_number'] = word_agree_with_number
+
 db = JsonDB('data/')
 
 
@@ -12,9 +19,14 @@ def index():
     return render_template('index.html', teachers=teachers)
 
 
-@app.route('/all/')
+@app.route('/all/', methods=['GET', 'POST'])
 def all_profiles():
-    return render_template('all.html')
+    sort = None
+    form = SortTeachersForm()
+    if request.method == 'POST':
+        sort = form.sort.data
+    teachers = db.all('teachers', sort=sort)
+    return render_template('all.html', teachers=teachers, form=form)
 
 
 @app.route('/profiles/<int:profile_id>')
