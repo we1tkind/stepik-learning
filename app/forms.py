@@ -1,13 +1,13 @@
 from flask_wtf import FlaskForm
-from wtforms import RadioField
+from wtforms import SelectField
 
 
 class SortTeachersForm(FlaskForm):
-    sort = RadioField(
+    sort = SelectField(
         'sort',
         choices=(
             ('random', 'В случайном порядке'),
-            ('rating', 'Сначала лучшие по рейтингу'),
+            ('-rating', 'Сначала лучшие по рейтингу'),
             ('price', 'Сначала недорогие'),
             ('-price', 'Сначала дорогие'),
         )

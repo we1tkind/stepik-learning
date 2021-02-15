@@ -44,8 +44,6 @@ def goals(goal_id):
         iter([goal for goal in learning_goals if goal['id'] == goal_id]), None
     )
     teachers = db.all('teachers', filters={'goals': goal['id']})
-    print(goal)
-    print([t['id'] for t in teachers])
     return render_template('goal.html', goal=goal, teachers=teachers)
 
 
