@@ -11,12 +11,15 @@ app.secret_key = os.getenv('FLASK_SECRET_KEY', 'secret')
 app.jinja_env.filters['word_agree_with_number'] = word_agree_with_number
 
 db = JsonDB('data/')
+learning_goals = db.all('goals')
 
 
 @app.route('/')
 def index():
     teachers = db.all('teachers', limit=6)
-    return render_template('index.html', teachers=teachers)
+    return render_template(
+        'index.html', teachers=teachers, goals=learning_goals,
+    )
 
 
 @app.route('/all/', methods=['GET', 'POST'])
@@ -29,18 +32,25 @@ def all_profiles():
     return render_template('all.html', teachers=teachers, form=form)
 
 
-@app.route('/profiles/<int:profile_id>')
+@app.route('/profiles/<int:profile_id>/')
 def profile(profile_id):
-    return render_template('profile.html')
+    teacher = db.get('teachers', profile_id)
+    return render_template('profile.html', teacher=teacher)
 
 
-@app.route('/goals/<goal>')
-def goals(goal):
-    return render_template('goal.html')
+@app.route('/goals/<goal_id>/')
+def goals(goal_id):
+    goal = next(
+        iter([goal for goal in learning_goals if goal['id'] == goal_id]), None
+    )
+    teachers = db.all('teachers', filters={'goals': goal['id']})
+    print(goal)
+    print([t['id'] for t in teachers])
+    return render_template('goal.html', goal=goal, teachers=teachers)
 
 
 @app.route('/request/')
-def request():
+def request_():
     return render_template('request.html')
 
 

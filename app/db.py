@@ -31,10 +31,10 @@ class JsonDB:
     def filter(instances: list, filters: Optional[dict] = None) -> list:
         if filters:
             for k, v in filters.items():
-                instances = filter(lambda x: x[k] == v, instances)
+                instances = filter(lambda x: x[k] == v or v in x[k], instances)
         return list(instances)
 
-    def all(self, collection: str, limit: Optional[int] = -1,
+    def all(self, collection: str, limit: Optional[int] = None,
             sort: str = 'random', filters: Optional[dict] = None):
         instances = []
         # TODO убрать и сделать более обобщённо
