@@ -37,6 +37,12 @@ class JsonDB:
     def all(self, collection: str, limit: Optional[int] = -1,
             sort: str = 'random', filters: Optional[dict] = None):
         instances = []
+        # TODO убрать и сделать более обобщённо
+        if collection == 'goals':
+            file = self.dir_name.joinpath('goals.json')
+            with open(file, 'r') as json_file:
+                return json.loads(json_file.read()).get('goals')
+
         files = list(self.dir_name.joinpath(collection).glob('*.json'))
         for file in files:
             with open(file, 'r') as json_file:
