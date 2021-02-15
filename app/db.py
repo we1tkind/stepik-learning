@@ -38,10 +38,13 @@ class JsonDB:
             sort: str = 'random', filters: Optional[dict] = None):
         instances = []
         # TODO убрать и сделать более обобщённо
-        if collection == 'goals':
-            file = self.dir_name.joinpath('goals.json')
-            with open(file, 'r') as json_file:
-                return json.loads(json_file.read()).get('goals')
+        if collection != 'teachers':
+            file = self.dir_name.joinpath(f'{collection}.json')
+            try:
+                with open(file, 'r+') as json_file:
+                    return json.loads(json_file.read()).get(collection, [])
+            except (json.JSONDecodeError, FileNotFoundError):
+                return []
 
         files = list(self.dir_name.joinpath(collection).glob('*.json'))
         for file in files:
@@ -53,3 +56,11 @@ class JsonDB:
 
     def update(self, collection: str, instance_id: int, updated_data: dict):
         pass
+
+    def create(self, collection: str, data: dict):
+        file_path = self.dir_name.joinpath(f'{collection}.json')
+        old_data = self.all(collection)
+        old_data.append(data)
+        with open(file_path, 'w+', encoding='utf8') as json_file:
+            json.dump({collection: old_data}, json_file,
+                      indent=4, sort_keys=False, ensure_ascii=False)
