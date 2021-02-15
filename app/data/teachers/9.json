@@ -6,7 +6,8 @@
     "rating": 4.1,
     "price": 1200,
     "goals": [
-        "work"
+        "work",
+        "dev"
     ],
     "free": {
         "mon": {
