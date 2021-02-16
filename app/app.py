@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, request
 
 from db import JsonDB
-from forms import SortTeachersForm, BookingForm
+from forms import SortTeachersForm, BookingForm, RequestForm
 from filters import word_agree_with_number, translate_weekday
 
 app = Flask(__name__)
@@ -50,12 +50,20 @@ def goals(goal_id):
 
 @app.route('/request/')
 def request_():
-    return render_template('request.html')
+    form = RequestForm()
+    return render_template('request.html', form=form)
 
 
-@app.route('/request_done/')
+@app.route('/request_done/', methods=['POST'])
 def request_done():
-    return render_template('request_done.html')
+    form = RequestForm()
+    name = form.name.data
+    goal = form.goal.data
+    time = form.time.data
+    phone = form.phone.data
+    data = dict(name=name, goal=goal, time=time, phone=phone)
+    db.create('requests', data)
+    return render_template('request_done.html', **data)
 
 
 @app.route('/booking/<int:profile_id>/<weekday>/<time>/')
