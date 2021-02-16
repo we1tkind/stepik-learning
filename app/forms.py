@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import SelectField
+from wtforms import SelectField, StringField, HiddenField
 
 
 class SortTeachersForm(FlaskForm):
@@ -12,3 +12,11 @@ class SortTeachersForm(FlaskForm):
             ('-price', 'Сначала дорогие'),
         )
     )
+
+
+class BookingForm(FlaskForm):
+    client_name = StringField('Вас зовут')
+    client_phone = StringField('Ваш телефон')
+    client_time = HiddenField()
+    client_teacher = HiddenField()
+    client_weekday = HiddenField()
