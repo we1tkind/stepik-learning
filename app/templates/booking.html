@@ -9,7 +9,9 @@
             <h2 class="h5 card-title mt-2 mb-2">{{teacher.name}}</h2>
             <p class="my-1">Запись на пробный урок</p>
             <p class="my-1">{{weekday|translate_weekday}}, {{time}}</p>
-            <div class="card-body mx-3">
+          </div>
+          <hr />
+          <div class="card-body mx-3">
                 {{ form.csrf_token }}
                 {{ form.client_teacher(value=teacher['id']) }}
                 {{ form.client_weekday(value=weekday) }}
@@ -19,32 +21,6 @@
                 {{ form.client_phone.label(class_="mb-1 mt-2") }}
                 {{ form.client_phone(class_="form-control") }}
                 <input type="submit" class="btn btn-primary btn-block mt-4" value="Записаться на пробный урок">
-            </div>
-          </div>
-        </form>
-        <form action="booking_done.html" class="card mb-3">
-          <div class="card-body text-center pt-5">
-            <img src="../static/pict 1.png" class="mb-3" width="95" alt="">
-            <h2 class="h5 card-title mt-2 mb-2">{{teacher.name}}</h2>
-            <p class="my-1">Запись на пробный урок</p>
-            <p class="my-1">{{weekday|translate_weekday}}, {{time}}</p>
-          </div>
-          <hr />
-          <div class="card-body mx-3">
-              <div class="row">
-                  <input class="form-control" type="hidden" name="clientWeekday" value="{{weekday}}">
-                  <input class="form-control" type="hidden" name="clientTime" value="{{time}}">
-                  <input class="form-control" type="hidden" name="clientTeacher" value="{{teacher.id}}">
-              </div>
-
-            <label class="mb-1 mt-2" for="clientName">Вас зовут</label>
-            <input class="form-control" type="text" name="clientName" id="clientName">
-
-            <label class="mb-1 mt-2" for="clientPhone">Ваш телефон</label>
-            <input class="form-control" type="tel"  name="clientPhone" id="clientPhone">
-
-            <input type="submit" class="btn btn-primary btn-block mt-4" value="Записаться на пробный урок">
-
           </div>
         </form>
       </div>
